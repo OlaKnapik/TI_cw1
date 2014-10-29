@@ -8,11 +8,11 @@ a {
 	color:#573D35;
 }
 
-a:hover { 
+.przycisk a:hover { 
     color: #C1E3E3;
 }
     
-a:visited {
+.przycisk a:visited {
     color: #141717;
 } 
 
@@ -81,6 +81,7 @@ div div {
 h2 {
 	font-weight: bold;
 	color: #8CA1AB;
+	border-bottom: solid 2px;
 }
 
 
