@@ -1,32 +1,160 @@
-div {
-    border-radius: 5px
+body {
+	background-color: #CCCCCC;
+	font-family: Arial;
 }
 
-#header {
-    height:70px;
-    width: 100%;
-    background-color:#DFC7EA;
-    z-index: 1;
-    position: relative;
+a {
+	text-decoration: none; 
+	color:#573D35;
 }
 
-.left {
-    height:800px;
-    width:300px;
-    background-color:#EBE2C2;
-    float: left;
+a:hover { 
+    color: #C1E3E3;
+}
+    
+a:visited {
+    color: #141717;
+} 
+
+
+div div {
+	margin:40px;
 }
 
-.right {
-    height:800px;
-    width:1000px;
-    background-color:#FCF9D3;
-    float: right;
+#foto {
+	width: 75%;
+	height: 250px;
+	position:absolute;
+	top: 20px;
+	left:20px;
 }
 
-#footer {
-    height:50px;
-    width:100%;
-    background-color:#F2E6F7;
-    clear: both;
+#tekst {
+	left: 500px;
+	color: #9FDBB0;
+	position: absolute;
+	top: 150px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#obraz {
+	height: 250px;
+	width: 20%;
+	position:absolute;
+	top: 20px;
+	right:20px;
+}
+
+.pasek {
+	background-color: #CCCCCC;
+	height: 40px;
+	position:absolute;
+	top:280px;
+	left: 20px;
+	right: 20px;
+}
+
+.przycisk {
+	position: relative;
+	float:right;
+	bottom: 8px;
+	width:23%;
+	height:30px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #A38293;
+	padding-top:10px;
+	margin: 1% 1% 1% 1%;
+}
+
+.tresc {
+	position:absolute;
+	background-color: #FBFFCF;
+	height: 500px;	
+	left: 20px;
+	right: 20px;
+}
+
+h2 {
+	font-weight: bold;
+	color: #8CA1AB;
+}
+
+
+.kolu {
+	float:left;
+}
+
+#jeden {
+	top: 340px;
+	position:absolute;
+}
+
+#dwa {
+	top: 860px;
+	position:absolute;
+}
+
+#trzy {
+	top: 1380px;
+}
+
+.txt {
+	width:60%; float:right;
+}
+
+.owt{
+	width:30%;
+	height: 400px;	
+
+}
+
+.like{
+	height: 20px;
+	width: 20px;
+	float: right;
+}
+
+td img {
+	height: 200px;
+	width:200px;
+}
+
+thead {
+	color: #84E0E8;
+	font-size: 26px;
+	font-style: italic;
+	text-align:center;
+}
+
+#stopka {
+	clear: both;
+	position: absolute;
+	top: 1890px;
+	background-color:#8A90AD;
+	height: 170px;
+}
+
+#rys {
+	width: 280px;
+	height: 150px;
+	float: right;
+}
+
+
+#serce {
+	height:20px;
+	width: 25px;
+}
+
+#koniec {
+	text-align:center;
+}
+
+span {
+	font-weight: bold;
+	font-style: italic;
 }
