@@ -1,5 +1,6 @@
 body {
 	background-color: #70594F;
+	font-family: Verdana;
 }
 
 #lewy {
@@ -30,8 +31,8 @@ body {
 	top: 30%;
 	font-size:25px;
 	font-family: Century, Tahoma;
-	style: bold;
-	color: #70594F
+	font-weight: bold;
+	color: #70594F;
 }
 
 #pasek {
@@ -43,7 +44,7 @@ body {
 	float:left;
 	width:23%;
 	height:80px;
-	background-color: #E37847;
+	background-color: #68AADE;
 	margin: 20px 1% 20px 1%;
 }
 
@@ -53,8 +54,9 @@ body {
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: bold;
-	top: 30px;
+	top: 20px;
 	left: 20px;
+	color: black;
 }
 
 .ptekst:hover {
@@ -69,19 +71,18 @@ body {
 }
 
 .tresc {
-	background-color: #FFFDD5;
+	background-color: #FFFFD5;
 	height: 500px;
 	position:relative;
 	float:left;
 	margin-bottom: 20px;
 	padding:30px;
 	width:95%;
-	font-family: Verdana;
 }
 
 h2 {
 	font-weight: bold;
-	color: #8CA1AB;
+	color: #AEE758;
 	border-bottom: solid 2px;
 }
 
@@ -100,7 +101,6 @@ h2 {
 .like{
 	height: 20px;
 	width: 20px;
-	float: center;
 }
 
 td img {
@@ -108,22 +108,14 @@ td img {
 	width: 200px;
 }
 
-thead {
-	color: #84E0E8;
-	font-size: 26px;
-	font-style: italic;
-	float: center;
-}
-
 
 table {
 	position:relative;
-	left:10%
-	right 10%;
+	left:10px;
 }
 
 #stopka {
-	background-color:#E35E52;
+	background-color:#68AADE;
 	height: 170px;
 }
 
@@ -141,9 +133,45 @@ table {
 
 #koniec {
 	text-align:center;
+	position:relative;
+	width:100%;
+	bottom: -60px;
 }
 
 span {
 	font-weight: bold;
 	font-style: italic;
+}
+
+.wiadomosc {
+	height: 200px;
+	width:30%;
+	position: relative;
+	float:left;
+	border-radius: 10px;
+	background-color:#FFFFD5;
+	margin-bottom: 20px; 
+	padding: 40px;
+	border: solid 2px #68AADE;
+	
+}
+
+.kol {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+.kol div {
+	margin-bottom:20px;
+}
+
+#wyślij{
+
+}
+
+#duzy{height: 50px;}
+
+#zegar {
+	margin: 20px;
 }

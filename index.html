@@ -4,13 +4,15 @@
 	
 	<head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<script type = "text/jscript" src="skrypt.js"></script>
 		<title>"Ćwiczenie nr 1"</title>
 	</head>
 	
-	<body>
+	<body onload="odliczanie();">
 		<div>
 			
 			<div id = "lewy">
+				<div id="zegar"></div>
 				<div id="tekst"><h1>Cum salvum flentes sui</h1></div>
 			</div>
 			<div id = "prawy">
@@ -39,7 +41,22 @@
 			</div>
 		</div>
 	
-	
+		<div class = "wiadomosc">
+			<div class = "kol">
+				<div>Imię: </div>
+				<div>Nazwisko: </div>
+				<div>e-mail: </div>
+				<div>Wiadomość: </div>
+			</div>
+			<div class = "kol">
+				<div><input type="text"></div>
+				<div><input type="text"></div>
+				<div><input type="text"></div>
+				<div><input id = "duzy" type="text"></div>
+				<div id="wyslij"><input type="button" value="Wyślij" onclick="wyslij()"/></div>
+			</div>
+		</div>
+		
 		<div class = "tresc">
 			<div class = "txt">
 				<h2> Nam non nisl sit amet</h2>
@@ -67,7 +84,7 @@
 		<div class = "tresc">
 		<div>
 		<table>
-	    	<thead><th colspan="6">Posse melius vim et, his ut albucius</th></thead>
+	    	<thead><th colspan="6"><h2>Posse melius vim et, his ut albucius</h2></th></thead>
 	    	<tbody>
 	       		<tr>
 	        	<td><img src = "http://www.imageboard.pl/sites/default/files/images/ciastko.thumbnail.jpg" /></a></td>
@@ -91,10 +108,10 @@
 		</div>
 
 		<div class="tresc" id = "stopka">
-			<div class = "kol">
+			<div>
 				<img id = "rys" src = "http://mg-truck.pl/images/Ikona-kontakt-przezroczysty.png" />
 			</div>
-			<div class="kol">
+			<div>
 				<h3>NAM MOMISIL</h3>
 					<ul>
 						<li>tel: 12345567543</li>
@@ -104,10 +121,11 @@
 					</ul>
 			</div>
 			
+			<div id = "koniec">
+				<h6>Made with <img id="serce" src="http://forum.campokickers.com/Eventy/Serduszko1.png" /> by Ola Knapik </h4>
+			</div>
+				
 		</div>
 		
-		<div id = "koniec">
-			<h6>Made with <img id="serce" src="http://forum.campokickers.com/Eventy/Serduszko1.png" /> by Ola Knapik </h4>
-		</div>	
 	</body> 
 </html>   
